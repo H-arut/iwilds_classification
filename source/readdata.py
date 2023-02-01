@@ -3,7 +3,7 @@ from wilds.common.data_loaders import get_train_loader
 import torchvision.transforms as transforms
 
 # Load the full dataset, and download it if necessary
-dataset = get_dataset(dataset="iwildcam", download=False)
+dataset = get_dataset(dataset="iwildcam", download=True)
 
 # Get the training set
 train_data = dataset.get_subset(

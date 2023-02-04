@@ -1,6 +1,6 @@
-# from wilds import get_dataset
-# from wilds.common.data_loaders import get_train_loader
-# import torchvision.transforms as transforms
+from wilds import get_dataset
+from wilds.common.data_loaders import get_train_loader
+import torchvision.transforms as transforms
 
 # Load the full dataset, and download it if necessary
 dataset = get_dataset(dataset="iwildcam", download=True)
@@ -22,3 +22,4 @@ for labeled_batch in train_loader:
 
 
 #Barev dzez
+# vonces?
